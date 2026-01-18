@@ -1,3 +1,11 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* style for font add */
+
 .inter-font-family {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -6,8 +14,139 @@
 }
 
 
-
-.test-link {
-  font-size: 100px;
-  color: chartreuse;
+body {
+  max-width: 1600px ;
+  margin: 0 auto;
+  margin-top: 10px;
 }
+
+.navbar {
+  max-width: 1600px;
+  height: 92px;
+  background-color: #1A0B2E ;
+  margin: 0 auto;
+}
+
+.nav-container {
+  max-width: 1200px;
+  height: 92px;
+  background-color: #1A0B2E  ;
+  margin: 0 auto;
+  /* border: 1px solid #ffffff; */
+}
+
+.tech {
+  font-size: 3rem;
+  color: white;
+}
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-logo {
+  cursor: pointer;
+}
+
+.nav-links .links-list {
+  display: flex;
+  gap: 32px;
+}
+
+.links-list {
+  list-style: none;
+}
+
+.links-list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.links-list li a:hover {
+  background-color: #FB09B4;
+  color: yellow;
+  font-size: 1.25rem;
+  transition: 500ms;
+}
+
+
+.wave {
+  font-size: 3rem;
+  background-image: linear-gradient( #9100F8, #FB09B4, #e6da5c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; 
+  
+}
+
+
+
+
+.subscribe-btn {
+  background-image: linear-gradient( #9100F8, #FB09B4, #e6da5c);
+  color: white;
+  width: 135px;
+  height: 44px;
+  padding: 12px 16px;
+  border-radius: 10000px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.subscribe-btn:hover {
+  color: #e6da5c;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5rem;
+  transition: 500ms;
+}
+
+
+.hero-container {
+  max-width: 1600px;
+  height: 760px;
+  border: 1px solid rgb(241, 7, 7);
+  background: url(assets/hero-bg.png);
+  background-repeat: no-repeat;
+  /* background-size: cover;   */
+  /* background-size: contain;        👈 background aligned with the main image */
+  background-position: center;
+}
+
+.hero-items {
+  max-width: 550px;
+  height: 558px;
+  border: 1px solid rgb(13, 204, 13);
+  margin: 101px 525px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.microphone {
+  width: 350px;
+  height: 350px;
+  border: 1px solid rgb(197, 19, 102);
+  /* margin: 0 auto; */
+}
+
+
+.hero-info {
+  width: 550px;
+  height: 168px;
+  border: 1px solid rgb(14, 230, 176);
+  /* margin: 0 auto; */
+  margin-top: auto;
+  background-color: #FB09B4;
+}
+  
+
