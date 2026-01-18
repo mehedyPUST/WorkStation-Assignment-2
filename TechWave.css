@@ -148,5 +148,104 @@ body {
   margin-top: auto;
   background-color: #FB09B4;
 }
+
+
+.about-container {
+  max-width: 1600px;
+  height: 646px;
+  border: 1px solid rgb(13, 204, 13);
+  /* margin: 101px 525px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.about-info {
+  width: 1200px;
+  height: 222px;
+  border: 1px solid rgb(12, 15, 223);
+  margin: 50px 200px 160px  ;
+}
+
+.about-card-container {
+  width: 1200px;
+  height: 94px;
+  border: 1px solid rgb(12, 223, 47);
+  margin: 0 auto;
+  
+}
+
+.features {
+  max-width: 1600px;
+  height: 1121px;
+  border: 1px solid rgb(25, 204, 228);
+  margin: 0 auto;
+  background: #230E3D ;
+}
+
+.features-heading {
+  width: 1200px;
+  height: 58px;
+  border: 1px solid rgb(12, 223, 47);
+  margin-top: 120px ;
+  margin: 120px 200px 40px;
+}
+
+.features-container {
+  max-width: 1200px;
+  height: 783px;
+  /* border: 1px solid rgb(25, 204, 228); */
+  margin: 0 auto;
+  background: #230E3D ;
+  margin: 0 200px 120px ;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  row-gap: 30px ;
+  column-gap: 30px;
+
+}
+
+
+
+.premium {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.mobile-freindly {
+  grid-column: span 2;
+  grid-row: span 1;
+
+}
+
+
+.global {
+  grid-column: span 2;
+  grid-row: span 1;
+
+}
+
+.ex-interviews {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.rich-resources {
+  grid-column: span 1;
+  grid-row: span 1;
+
+}
+
+.premium, .mobile-freindly, .global, .ex-interviews ,.rich-resources {
+  border-radius: 40px;
+  background-color: #351165;
+
+}
+
+
+
   
 
