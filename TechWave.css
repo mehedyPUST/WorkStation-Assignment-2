@@ -35,11 +35,6 @@ body {
   /* border: 1px solid #ffffff; */
 }
 
-.tech {
-  font-size: 3rem;
-  color: white;
-}
-
 
 .nav-container {
   display: flex;
@@ -47,7 +42,7 @@ body {
   align-items: center;
 }
 
-.brand-logo {
+.brand-logo , .footer-logo {
   cursor: pointer;
 }
 
@@ -73,6 +68,11 @@ body {
   transition: 500ms;
 }
 
+
+.tech {
+  font-size: 3rem;
+  color: white;
+}
 
 .wave {
   font-size: 3rem;
@@ -158,6 +158,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #1A0B2E;
 
 }
 
@@ -245,6 +246,68 @@ body {
 
 }
 
+
+.Featured-Episodes {
+  max-width: 1600px;
+  height: 1276px;
+  border: 1px solid rgb(247, 10, 10);
+  background-color:#1A0B2E ;
+  margin: 0 auto;
+
+}
+
+
+.episodes-section-heading {
+  max-width: 1200px;
+  height: 58px;
+  border: 1px solid rgb(12, 223, 47);
+  margin-top: 120px ;
+  margin: 120px 200px 40px;
+}
+
+.episodes-card-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1,1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+
+.episodes-card {
+  width: 380px;
+  height: 440px;
+  border: 1px solid rgb(12, 209, 223);
+  background-color: #250D44 ;
+}
+
+
+.host-part {
+  max-width: 1200px;
+  height: 378px;
+  border: 1px solid rgb(12, 198, 223);
+  margin: 120px 200px;
+}
+
+.host-part-heading {
+  max-width: 1200px;
+  height: 58px;
+  border: 1px solid rgb(12, 223, 47);
+  margin-bottom: 40px;
+}
+
+.host-container {
+  max-width: 1200px;
+  height: 280px;
+  border: 1px solid rgb(223, 12, 23);
+}
+
+
+footer {
+  max-width: 1600px;
+  height: 412px;
+  border: 1px solid rgb(12, 223, 47);
+}
 
 
   
