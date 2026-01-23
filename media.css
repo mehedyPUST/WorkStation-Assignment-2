@@ -1,0 +1,123 @@
+@media screen and (max-width:576px) {
+
+
+.hero-section {
+  max-width: 1vw;
+  min-height: 0.6vw;
+  margin: 0 auto;
+}
+
+
+.hero-container {
+  max-width: 1vw;
+  min-height: 0.6vw;
+  /* background: #9100F8; */
+  background: url(assets/hero-bg.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.hero-items {
+  max-width: 1vw;
+  min-height: .6vw;
+  /* border: 1px solid rgb(13, 204, 13); */
+  /* margin: 101px 525px; */
+  padding: 101px 525px;
+  /* margin-bottom: 0px;
+  margin-right: 525px;
+  margin-left: 525px ; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.microphone {
+  max-width: 210px;
+  min-height: 210px;
+  /* border: 1px solid rgb(197, 19, 102); */
+  background: url(assets/hero-circle.png);
+  background-repeat: no-repeat;
+  position: relative;
+
+  /* margin: 0 auto; */
+}
+
+.btn-new {
+  position: absolute;
+  width: 75px ;
+  height: 38px;
+  transform: translate(250px);
+  border-radius: 30px;
+  background: green;
+  border: none;
+  font-weight: 600;
+
+  
+}
+
+.microphone-pic {
+  margin: 0 auto;
+  position: absolute;
+  transform: translateX(112.5px) translateY(75px);
+}
+
+
+.hero-info {
+  max-width: 550px;
+  min-height: 168px;
+  /* border: 1px solid rgb(14, 230, 176); */
+  /* margin: 0 auto; */
+  margin-top: auto;
+  /* background-color: #FB09B4; */
+  text-align: center;
+}
+
+.hero-info-heading {
+  font-size: 60px;
+  font-weight: 800;
+  color: white;
+
+}
+.hero-info .info {
+  color: white;
+  margin-bottom: 24px ;
+  margin-top: 8px;
+
+}
+
+.hero-btn-1 {
+  background-image: linear-gradient( #9100F8, #FB09B4, #e6da5c);
+  color: white;
+  width: 201px;
+  height: 44px;
+  padding: 12.5px auto;
+  border-radius: 10000px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.hero-btn-2 {
+  background:none;
+  border: 1px solid green;
+  color: green;
+  width: 201px;
+  height: 44px;
+  padding: 12.5px auto;
+  border-radius: 10000px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+
+
+  
+}
